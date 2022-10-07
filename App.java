@@ -1,3 +1,5 @@
+import java.lang.reflect.Method;
+
 public class App {
     public static void main(String[] args) {
 
@@ -29,5 +31,6 @@ public class App {
         System.out.printf("The whole amount in the MoneyBox is: [ %d ]%n", box2.sum());
         System.out.println(box2.getMoneyBox(477));
         System.out.println(box2);
+
     }
 }

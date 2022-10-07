@@ -1,3 +1,5 @@
+import javax.annotation.processing.Generated;
+
 /**
  * This class represents money box that can keep track of an amount in coins.
  * 
@@ -130,7 +132,7 @@ public class MoneyBox {
      * @param coin
      */
     private void increment(int coin) {
-        set(coin, get(coin)+1);
+            set(coin, get(coin)+1);
     }
 
     /**
